@@ -1,7 +1,7 @@
 # IPTV Tamil Local TV Channel Playlist 
-This project contains playlist file which can be used as provider in IPTV. Playlist m3u file contains 50+ local tamil channels 
+This project contains playlist file which can be used as provider in IPTV. Playlist m3u file contains 90+ local tamil channels 
 1. Download <a href="https://github.com/prabhacap/IPTV/releases/latest/download/playlist-tamil-local.m3u">M3U Playlist</a>. 
-2. Use the m3u file as a new provider in any IPTV app like VLC Media Player, Kodi PVR IPTV Simple Client etc.,
+2. Use the m3u file as a new provider in any IPTV app like VLC Media Player, Kodi PVR IPTV Simple Client, TiviMate etc.,
 3. Also you can give remote URL for the playlist. URL is case-sensitive
 
 ```
@@ -27,10 +27,19 @@ to add. If the content is open to public without expiry I can add it to playlist
  <br>
 
 
-## Installation
+## KODI Installation
 
 1. <a href="https://kodi.tv/download"> Download Kodi </a> <BR>
 2. <a href="https://kodi.wiki/view/Add-on:IPTV_Simple_Client"> Kodi PVR Add-on </a> <BR>
 3. There are other IPTV apps available as well and settings will have options to add playlist
 4. Provide this m3u file as input in IPTV provider's settings
+<BR>
+
+## VLC
+
+1. <a href="https://get.videolan.org/vlc/3.0.11/win32/vlc-3.0.11-win32.exe"> Download VLC </a> <BR>
+2. After downloading VLC, Install it
+3. Then open VLC, Goto Media > Open Network Stream
+4. If you had downloaded <a href="https://github.com/prabhacap/IPTV/releases/latest/download/playlist-tamil-local.m3u">M3U Playlist</a>, then add file in FILE Tab
+5. Else, Goto Network Tab and paste http://tiny.cc/iptvtamil in it.
 <BR>
