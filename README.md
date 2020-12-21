@@ -54,14 +54,4 @@ to add. If the content is open to public without expiry I can add it to playlist
 6. Wait for Channels to insert
 7. You will then see Playlist is processed message with Channel count and your Playlist name. Click Next
 8. Skip the EPG URL by hitting Next
-9. Finally Click Done, Enjoy  
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F0V8GYDQR9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-F0V8GYDQR9');
-</script>
+9. Finally Click Done, Enjoy
