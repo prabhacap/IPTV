@@ -5,7 +5,7 @@ This project contains playlist file which can be used as provider in IPTV. Playl
 3. Also you can give remote URL for the playlist. URL is case-sensitive
 
 ```
-http://tiny.cc/iptvtamil
+https://bit.ly/3h5yNZM
 ```
 Note: Video availability is based on the sources. If you know any source to be added, please raise issue 
 to add. If the content is open to public without expiry I can add it to playlist.
@@ -41,7 +41,7 @@ to add. If the content is open to public without expiry I can add it to playlist
 2. After downloading VLC, Install it
 3. Then open VLC, Goto Media > Open Network Stream
 4. If you had downloaded <a href="https://github.com/prabhacap/IPTV/releases/latest/download/playlist-tamil-local.m3u">M3U Playlist</a>, then add file in FILE Tab
-5. Else, Goto Network Tab and paste "http://<span></span>tiny.cc/iptvtamil" in it
+5. Else, Goto Network Tab and paste "http://<span></span>bit.ly/3h5yNZM" in it
   <BR>
 
 ## TiviMate
@@ -49,7 +49,7 @@ to add. If the content is open to public without expiry I can add it to playlist
 1. <a href="https://play.google.com/store/apps/details?id=ar.tvplayer.tv&hl=en_IN&gl=US"> Download TiviMate </a> in Android Box or Android TV
 2. Open TiviMate App and click Add Playlist
 3. Click Enter URL
-4. Enter the M3U URL "http://<span></span>tiny.cc/iptvtamil"
+4. Enter the M3U URL "http://<span></span>bit.ly/3h5yNZM"
 5. Click Next
 6. Wait for Channels to insert
 7. You will then see Playlist is processed message with Channel count and your Playlist name. Click Next
