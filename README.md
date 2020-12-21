@@ -41,5 +41,17 @@ to add. If the content is open to public without expiry I can add it to playlist
 2. After downloading VLC, Install it
 3. Then open VLC, Goto Media > Open Network Stream
 4. If you had downloaded <a href="https://github.com/prabhacap/IPTV/releases/latest/download/playlist-tamil-local.m3u">M3U Playlist</a>, then add file in FILE Tab
-5. Else, Goto Network Tab and paste http://tiny.cc/iptvtamil in it.
-<BR>
+5. Else, Goto Network Tab and paste http://tiny.cc/iptvtamil in it
+  <BR>
+
+## TiviMate
+
+1. <a href="https://play.google.com/store/apps/details?id=ar.tvplayer.tv&hl=en_IN&gl=US"> Download TiviMate </a> in Android Box or Android TV
+2. Open TiviMate App and click Add Playlist
+3. Click Enter URL
+4. Enter the M3U URL http://tiny.cc/iptvtamil
+5. Click Next
+6. Wait for Channels to insert
+7. You will then see Playlist is processed message with Channel count and your Playlist name. Click Next
+8. Skip the EPG URL by hitting Next
+9. Finally Click Done, Enjoy  
