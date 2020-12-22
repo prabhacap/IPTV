@@ -1,0 +1,571 @@
+#EXTM3U 
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="data:image/png;base64,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", Tamil Media
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://video-weaver.fra02.hls.ttvnw.net/v1/playlist/CpYE1jtLFQqZSLx3Fa-O2tM1lxVoCWG1X0bWWSNbB24-BEGAwhLuVH3GwUFLLo32lsUISfRl_7-ndpR6byDmHdJ8gq-qV6Cj8TI_9DNZh_lN2k8fBXt_4YfJEfAvd-xid6hsWaDZh6Kve9Bd0TsPsvQ397wfv6nVcm62elzMyUF-2AM_n6uRQl3p2gIEdbXsEc8omZPhCtQ7VCH7LRhARmZz64NlGhqAmR5Ta2UfOpAE3unv64B7gcTWoMtj7Dz8UpDmupmt2oXk24eeBQIuQgnmdXFpoA-xWV-qy-c5rFk0Wep44eqqlfcM54thVwwDdjlmJFDO8C9ZXVysU8sxXp14DyJCqy5Qnc6YFPZZK6yplOvDTkQOKeS0f8DcANcaZ6NlbCRSnoiGq2lSOWk78jmmYkFLd-JrH3Oskh_lk6EfNM_k12AvEim8UKvAQlLzJ2jfCOjtphqkSn0Y7xK_LN4Kz5M-QUGw4rGMPdFKdlVw2T0afxYbnSmahlsVjtAfMoXP282wbqUO64y7DbsTD4b45S8Yo8gDba4L_Rp7_tFc9XBK3p9GM5tpi7AbpZ471vKUPXLuDdhanlclxwCU59UUKk6cn4TtFQ_unNcviTHWCByoqKktblltHlZWo0hppIfGFckebJ31eVXdBdfXFZ8C6vwTrvmHj05wxQAD2_0GwDwbC9C4M1wbNbmTHsUzZh6AXj7W4qcvEhCzwDTHKXOugTvO5hAFGGVNGgxrurVjfM9gErietZc.m3u8
+
+#EXTM3U 
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://austamil.tv/wp-content/uploads/2020/04/aus-tamil-HD-New-e1586081963171.png", AUS TAMIL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://bk7l2pn7dx53-hls-live.5centscdn.com/austamil/fe01ce2a7fbac8fafaed7c982a04e229.sdp/chunks.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="http://www.tamilvision.tv/Images/logo.png",TAMIL VISION TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://live.tamilvision.tv:8081/TVI/HD/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://athavantv.com/wp-content/uploads/2019/01/athavantv-hd-logo.png", ADHAVAN HD TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://45.77.66.224:1935/athavantv/live/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://assets.zoftcdn.com/branding/ibctv/ibc-tamil-black.png", IBC TAMIL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://ibctamil-live.ibctamil.com/transcode/ibctamil_std.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://assets.zoftcdn.com/branding/ibctv/ibc-music.png", IBC MUSIC
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://ibcmusic-live.ibctamil.com/transcode/music_std.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://assets.zoftcdn.com/branding/ibctv/ibc-pagadi.png", IBC COMEDY
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://ibccomedy-live.ibctamil.com/transcode/ibccomedy_std.m3u8
+
+#EXTINF:0 tvg-logo="http://saalaitv.com/logo/IBCPAKIDI.png" group-title="Tamil;Kids",IBC Kids Tamil
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://ibckids-origin.ibctamil.com/transcode/ibckids_std.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://threetamil.tv/wp-content/uploads/2019/03/cropped-3-tamil-1.png", 3 TAMIL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://6n3yogbnd9ok-hls-live.5centscdn.com/threetamil/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/i9ct2MX.png" group-title="Tamil;Local",Rasi TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://singamcloud.in:1935/rasinetwork/rasitv/playlist.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/vqtHzOL.jpg" group-title="Tamil;Local",Rasi Movies
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://singamcloud.in:1935/rasinetwork/rasimovies/playlist.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/vqtHzOL.jpg" group-title="Tamil;Local",Rasi Classic
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://singamcloud.in:1935/rasinetwork/rasiclassic/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://i.imgur.com/EaHWWNl.jpg",7Star TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://media.7starcloud.com:1935/live/7star/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://i.imgur.com/6GxuWXT.png",Sana Plus
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://media.7starcloud.com:1935/live/sanatv2/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://i.imgur.com/zAQSZeC.png",Sana TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://7starcloud.com:1935/sanatv/sanatv/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://i.imgur.com/0ApLXUi.png",Thalapathy TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://7starcloud.com:1935/thalapathytv/livethalapathy/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local",Aarya Premiere
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://7starcloud.com:1935/aarya/aaryalive/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local",Tirumalai TV KARUR
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://media.7starcloud.com:1935/tirumalaitv/stream/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://i.imgur.com/QXV7bn4.png",Sigaram TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://7starcloud.com:1935/sigaram/sigaramtv/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://i.imgur.com/9J5HJuI.png",Vani TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://7starcloud.com:1935/vanitv/livemedia/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local",Arasan TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://ammacable.com:1935/acn/arasantv/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://7starcloud.in/ACNCINEMA.png", ACN Cinema
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://ammacable.com:1935/acn/acncinema/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://abcmedias.com/ACNMUSICLOGO_V2_00000.png", ACN Music
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://ammacable.com:1935/acn/acnmusic/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local",Amma Channel
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://ammacable.com:1935/acn/ammachannel/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local",AKARAM TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://akaram.zecast.net/akaram-live/akaramnew2/index.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/4sOEcez.png" group-title="Tamil;Local",Vathanam TV 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://95.216.167.183:5080/LiveApp/streams/443106610169904881506470.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://i.imgur.com/3IzVcjg.png",Pakalavan TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://player.yarlsriserver.com/pakalavantv/e26fd7c8b4fd8eafbb9f99a19a1c3701.sdp/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/MK_SIX.png",MK Six
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://103.199.160.85/Content/mktv6/Live/Channel(MKTV6)/index.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/MK_TUNES.png",MK Tunes
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://103.199.160.85/Content/mktunes/Live/Channel(MKTunes)/index.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2019/07/mk_tv_in.png",MK TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://103.199.160.85/Content/mktv/Live/Channel(MKTV)/index.m3u8
+
+#EXTINF:0 tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/analaiexpress1.jpg" group-title="Tamil;Local",Analai Express HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://eu.streamjo.com/sarastv/sarastv.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/TIc76op.png" group-title="Tamil;Local",Deepam TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://95.217.218.87/deepamtvhls/live.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/f7J37yv.png" group-title="Tamil;Local",EET TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://eu.streamjo.com/eetlive/eettv.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/ExYV0nb.png" group-title="Tamil;Local",TET TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://206.47.41.166:8080/1.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://www.worldtamil.tv/img/logo.png", WORLD TAMIL TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://185.105.4.244:1935/wtt/wttv/playlist.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="http://haritv.com/images/logo.png",HARI TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://media.7starcloud.com:1935/harimedia/haritv/playlist.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="http://sangamamtv.com/images/logo%20header%20banner.png",Sangamam HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://livematrix.in:1935/live/sangamamtv/playlist.m3u8
+
+#EXTINF:0 tvg-logo="http://4.bp.blogspot.com/-41QZC8uLrhU/XpVHgu1iFPI/AAAAAAAAABs/f2BhvPl7SNweMSfGGhybCQcjrJLp6QcbwCK4BGAYYCw/s920/512x512%2BSooriyanTV.png" group-title="Tamil;Local",Suriyan TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://59d39900ebfb8.streamlock.net:1935/Jaffnatv/Jaffnatv/index.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/kKFfLMd.jpg" group-title="Tamil;Local",Santhora Short Flim
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://rtmp.santhoratv.zecast.net/santhora/santhorashortfilm/chunklist_w342316663.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="http://santhora.tv/wp-content/uploads/2019/05/header-logo-anim.gif",Santhora TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://rtmp.santhoratv.zecast.net/santhoratv/santhoratv/playlist.m3u8
+
+#EXTINF:0 tvg-logo="http://mntv.in/style/images/logo-dark.png" group-title="Tamil;Local",Marutam TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://mntv.livebox.co.in/mntvhls/mntv.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://www.jawaharchannel.in/SEPERATE%20FOLDER/01%20HEADER/Leaf%20Logo.png", JAWAHAR TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://streamingbox.7starcloud.com:1935/jawahartv/streamingbox/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://static.ultramaxnet.com/images/utv_720p_d2.png", ULTRAMAX TAMIL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/ultramax_low/index.m3u8
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://static.ultramaxnet.com/images/ammatvvdr_logo.jpeg", AMMA TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/ammatvvdr_low/index.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://site1.ultramaxnet.com/client/ultramax/images/jeevantv.jpg", JEEVAN TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/jeevantv123_low/index.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://static.ultramaxnet.com/images/kavin_tv_logo.jpeg", KAVIN TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/kavintv_low/index.m3u8 
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://site1.ultramaxnet.com/client/ultramax/images/kanaatvnew.jpg", KANA TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/kanaatv123_low/index.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://site1.ultramaxnet.com/client/ultramax/images/kvmtv.jpg", KVM TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/kvmtv321_low/index.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://static.ultramaxnet.com/images/sigaram_tv_logo.png?v=1", SIGARAM TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/sigaramtv_low/index.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://static.ultramaxnet.com/images/nanban_tv_logo.png?v=1", NANBAN TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/nanbantv_low/index.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="http://www.erodesrikrishnatv.com/images/logo.png",SRI KRISHNA TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://media.7starcloud.com:1935/erodekrishnatv/livestream/playlist.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="https://www.meenakshitv.in/images/logo.png",MEENAKSHI TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://stream.meenakshitv.com/LiveApp/streams/737506415855638572426221.m3u8
+
+#EXTINF:0 tvg-logo="http://www.moontvlive.com/images/logo.png" group-title="Tamil;Local",Moon TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://player.mslivestream.net/mslive/e10bb900976df9177b9a080314f26f86.sdp/chunks.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://static.ultramaxnet.com/images/kathir_tv_logo.png", KADHIR TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/kathirtv123_low/index.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="https://erodercntv.com/wp-content/themes/rcn_theme/images/logo.png",RCN TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://5c75277727cd1.streamlock.net/rcntv/rcntv/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="http://site1.ultramaxnet.com/client/ultramax/images/jayamtv.jpg", JAYAM TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/jayamtvtvm_low/index.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://via.placeholder.com/640x360.png?text=JEYAM+TV", JEYAM TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/jeyamtv321_low/index.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://static.ultramaxnet.com/images/vedha_tv_logo.jpeg", VEDA TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/vedhatv_low/index.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="https://www.vasantham.lk/wp-content/uploads/2016/07/vasantham_logo_224x187.png",VASANTHAM TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://cdncities.com/vasanthamtv/vasanthamtv/playlist.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="https://via.placeholder.com/640x360.png?text=Nila+Tv",NILA TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/nilatv321_low/index.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="www.bharathitv.com/images/logo.png",BARATHI TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://182.75.50.131:1935/live/bharathi/playlist.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="http://www.aasaitvlive.in/img/aasai_tv.png",AASAI TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://osaitv.livebox.co.in/osaihls/live.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="https://static.ultramaxnet.com/images/news80tamil_tv_logo.jpeg",News 80 TAMIL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://secure.ultramaxnet.com/client/hls/ultramax-app-v1975/news80tamil_low/index.m3u8
+
+#EXTINF:0 tvg-logo="https://vaanavil.live/wp-content/uploads/2019/10/Vaanavil-Logo-GIF.gif" group-title="Tamil;Local",VANAVIL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/chunks.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="http://www.vanaviltv.in/images/PLUS1_001_00299.png",Vanavil Plus TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://45.79.203.234:1935/vanavil/myStream/playlist.m3u8
+
+#EXTINF:0, group-title="Tamil;Local" tvg-logo="https://i.ytimg.com/vi/R-ZPWaVxX8M/hqdefault.jpg",VIDIYAL TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://account7.livebox.co.in/vidiyaltvhls/live.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/ABvVSga.png" group-title="Tamil;Local",Akaram Kidz
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://akaram.zecast.net/akaram-live/akaramkidz/index.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/ABvVSga.png" group-title="Tamil;Local",Akaram Mix
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://akaram.zecast.net/akaram-live/akarammix1/index.m3u8
+
+#EXTINF:0 group-title="Tamil;Local",AKARAM Gallata TV
+http://akaram.zecast.net/akaram-live/ngrp:akaramgalatta1_all/chunklist.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/MYZ6EXU.png" group-title="Tamil;Local",Kalaignar TV 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://103.199.161.254/Content/kalaignartv/Live/Channel(KalaignarTV)/index.m3u8
+
+#EXTINF:0 tvg-logo="http://www.rajtvnet.in/Raj_Net/Bottom_Scroller_Logo/Tamil_Rajtv.png" group-title="Tamil;Local",Raj TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://103.199.161.254/Content/rajtv/Live/Channel(RajTV)/Stream(01)/index.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/Dwfiylo.png" group-title="Tamil;Local",Tamil Business TV (DE)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://rtmp.santhoratv.zecast.net/tamilbusinesstv//tamilbusinesstv/playlist.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/MHH6UNS.png" group-title="Tamil;Local",Thanthi TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://vidcdn.vidgyor.com/thanthi-origin/liveabr/thanthi-origin/live2/chunks.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/ns2x7ws.png" group-title="Tamil;Local",Yupp TV Tamil Classics 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://d1fi19tywmn14b.cloudfront.net/yuppindmov/ngrp:ytamcla.stream_all/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local",Nam TV 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://nextgeninfotech.ddns.net:8080/ntv/ntv.m3u8
+
+#EXTINF:0 tvg-logo="" group-title="Tamil;Local",Jay TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://livematrix.in:1935/live/jay/index.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/YeR3mm9.png" group-title="Tamil;Local",Velicham TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://rtmp.smartstream.video/velichamtv/velichamtv/playlist.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/3APPmFw.png" group-title="Tamil;Local",CSK TV HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://185.105.4.244:1935/livesp/csktv1/playlist.m3u8
+
+#EXTINF:0 tvg-logo="https://i.imgur.com/FigDbPo.png" group-title="Tamil;Local",SD Media
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://7starcloud.com:1935/sd/sdmedia/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;Local",Aarya Premiere
+http://7starcloud.com:1935/aarya/aaryalive/playlist.m3u8
+
+#EXTINF:0 group-title="Tamil;MX" tvg-logo="https://j2apps.s.llnwi.net/isa1/pic/1493.7SMusic.in/en/1x1/208x208/test_pic1552384462173.jpg", 7S MUSIC TV 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://m-c049-j2apps.s.llnwi.net/hls/1493.7SMusic.in_360p/index.m3u8
+
+#EXTINF:0 group-title="Tamil;MX" tvg-logo="https://j2apps.s.llnwi.net/isa1/pic/0390.IsaiAruvi.in/en/1x1/208x208/test_pic1552384764086.jpg", ISAIARUVI
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://m-c049-j2apps.s.llnwi.net/hls/0390.IsaiAruvi.in_360p/index.m3u8
+
+#EXTINF:0 group-title="Tamil;MX" tvg-logo="https://j2apps.s.llnwi.net/isa1/pic/0680.CaptainTV.in/en/1x1/208x208/test_pic1535463113447.jpg", CAPTAIN TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://m-c29-j2apps.s.llnwi.net/hls/0680.CaptainTV.in_288p/index.m3u8
+
+#EXTINF:0 group-title="Tamil;MX" tvg-logo="https://j2apps.s.llnwi.net/isa1/pic/7077.VendarTV.in/en/1x1/208x208/test_pic1596109828563.jpg", VENDHAR TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://m-c06-j2apps.s.llnwi.net/hls/7077.VendarTV.in_288p/index.m3u8
+
+#EXTINF:0 group-title="Tamil;MX" tvg-logo="https://j2apps.s.llnwi.net/isa1/pic/3731.Tunes6.in/en/1x1/208x208/test_pic1552387113014.jpg", TUNE 6
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://m-c18-j2apps.s.llnwi.net/hls/3731.Tunes6.in.m3u8
+
+#EXTINF:0 group-title="Tamil;Local" tvg-logo="https://dheeran.tv/img/1.png", DHEERAN TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://5c75277727cd1.streamlock.net/dheeran/dheeran/playlist.m3u8
+
+#EXTINF:0, group-title="Tamil;News" tvg-logo="https://static.tamil.news18.com/tamil/uploads/2020/03/tamil-1.png",News 18 TAMIL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://news18tamil-lh.akamaihd.net/i/n18tamil_1@526595/index_5_av-p.m3u8
+
+#EXTINF:0, group-title="Tamil;Devotional" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/Madha_TV-black.png",Madha TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://103.109.45.5:1935/madhatv/madhatv.stream_HDp/chunklist_w67072347.m3u8
+
+#EXTINF:0, group-title="Tamil;Devotional" tvg-logo="https://www.blessingtv.tv/images/all_images/14579702231.png",Aasirvadham TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+http://199.168.96.106:1935/blessingtv-tamillive/mystream/chunklist_w365086533.m3u8
+
+#EXTINF:0, group-title="Tamil;Devotional" tvg-logo="https://assets.zoftcdn.com/branding/ibctv/ibc-bakthi.png",IBC Bakthi
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://ibcbakthi-origin.ibctamil.com/transcode/ibcbakthi.m3u8
+
+#EXTINF:0, group-title="Tamil;Devotional" tvg-logo="https://assets.zoftcdn.com/branding/ibctv/ibc-siluvaii.png",IBC Siluvai
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://ibcsiluvai-live.ibctamil.com/transcode/ibcsiluvai.m3u8
+
+#EXTINF:0, group-title="Tamil;Entertainment" tvg-logo="https://assets.zoftcdn.com/branding/ibctv/ibc-canada.png",IBC Tamil Canada
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://ibctamilcanada-live.ibctamil.com/transcode/ibccanada.m3u8
+
+#EXTINF:0, group-title="Tamil;Devotional" tvg-logo="https://i.imgur.com/IKiNKDu.png",Imayam TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://5c75277727cd1.streamlock.net:443/imayamtv/imayamtv/playlist.m3u8
+
+#EXTINF:0, group-title="Tamil;Entertainment" tvg-logo="https://i.imgur.com/mrvGGKY.png",Kollywood TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://m-c09-j2apps.s.llnwi.net/hls/8002.Kollywood.in.m3u8
+
+#EXTINF:0, group-title="Tamil;News" tvg-logo="https://i.imgur.com/uFiHtQX.png",Malaimurasu
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://malaimurasucdn.purplestream.com/malaimurasu/49992ade0624eda468a31e137996d044.sdp/playlist.m3u8
+
+#EXTINF:0, group-title="Tamil;Entertainment" tvg-logo="https://i.imgur.com/XMAqb0H.png",Peppers TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+https://live.wmncdn.net/peppers/live.stream/index.m3u8
+
