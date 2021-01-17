@@ -55,3 +55,9 @@ to add. If the content is open to public without expiry I can add it to playlist
 7. You will then see Playlist is processed message with Channel count and your Playlist name. Click Next
 8. Skip the EPG URL by hitting Next
 9. Finally Click Done, Enjoy
+
+## Donate
+
+Paypal: paypal.me/prabhacap
+UPI: prabhacap@ybl
+Bitcoin: 39VkCP6Lx5mAfvFCSMSU1wtEViD9ShJvMA 
