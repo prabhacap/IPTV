@@ -58,6 +58,6 @@ to add. If the content is open to public without expiry I can add it to playlist
 
 ## Donate
 
-Paypal: paypal.me/prabhacap
-UPI: prabhacap@ybl
-Bitcoin: 39VkCP6Lx5mAfvFCSMSU1wtEViD9ShJvMA 
+Paypal: paypal.me/prabhacap <br>
+UPI: prabhacap@ybl <br>
+Bitcoin: 39VkCP6Lx5mAfvFCSMSU1wtEViD9ShJvMA <br>
